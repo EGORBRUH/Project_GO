@@ -102,4 +102,4 @@ git clone https://github.com/Quper87/git-lesson.git
 git commit -a -m 'сохраняет изменения отслеживаемых файлов и выполняет коммит'
 ```
 
-566529566529Ee
+
