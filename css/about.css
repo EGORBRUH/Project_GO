@@ -1,0 +1,72 @@
+
+.about img {
+  float: left;
+  margin-right: 80px;
+}
+.title-about {
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.text-about__first {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.text-about__last {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 48px;
+
+}
+.quote {
+  position: relative;
+  margin: 0;
+}
+
+.quote-text {
+  white-space: pre-line;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+.quote-text:before {
+  content: "“";
+  font-size: 60px;
+  color: rgba(108, 2, 135, 1);
+}
+.quote-text:after {
+  content: "”";
+  font-size: 60px;
+  color: rgba(108, 2, 135, 1);
+
+}
+.quote-author {
+  display: inline-block;
+  padding-left: 191px;
+  max-width: 450px;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.quote-author cite {
+  display: inline;
+}
+
+.quote-author:before {
+  content: url("../image/person.svg");
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: 330px;
+  bottom: 2px;
+
+}

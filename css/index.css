@@ -1,4 +1,10 @@
-@import "style.css";
+@import "global.css";
 @import "faq.css";
 @import "visitor.css";
-
+@import "header.css";
+@import "go.css";
+@import "hall.css";
+@import "form.css";
+@import "about.css";
+@import "contacts.css";
+@import "global.css";
