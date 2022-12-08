@@ -1,3 +1,6 @@
+fieldset {
+  border: none;
+}
 .title-form {
   font-size: 40px;
   line-height: 50px;
@@ -5,3 +8,38 @@
   text-transform: uppercase;
   margin-bottom: 50px;
 }
+.legend-form_hall {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.block-form_one {
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-form__radio {
+  display: none;
+}
+.label-form_vibes,
+.label-form_neon,
+.label-form_west,
+.label-form_wars {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  background: #FFFFFF;
+  padding: 7px 15px;
+  border-radius: 8px;
+}
+
+
+
+

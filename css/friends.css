@@ -1,0 +1,32 @@
+.friends-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+  white-space: pre-line;
+}
+.friends-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 39px 20px;
+}
+.friends-card {
+  position: relative;
+}
+.friends-card_title {
+  max-width: 300px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  bottom: 34px;
+  left: 40px;
+  position: absolute;
+
+}
+/*.friends-card_title-vr {*/
+/*  position: absolute;*/
+/*  left: 140px;*/
+/*}*/

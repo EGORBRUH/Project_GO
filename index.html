@@ -53,58 +53,100 @@
           <p class="text-go text-go_text">Новейшая
             аппаратура</p>
         </div>
+       <a class="link-go" href=""><button class="btn-go">Забронировать</button></a>
 
-
-       <a class="link-go" href=""><button class="btn-go"></button></a>
-         <div class="title-img"></div>
+       <div class="link-go_arrow">
+         <svg class="go-arrow" width="97" height="97" viewBox="0 0 97 97" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+           <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
+           <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
+           <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
+         </svg>
+       </div>
      </div>
-   </section>
 
+   </section>
+   <section class="friends">
+    <div class="container">
+        <h2 class="friends-title">У нас есть все для классного
+          отдыха с друзьями!</h2>
+      <div class="friends-row">
+        <div class="friends-card">
+          <p class="friends-card_title">VR очки</p>
+          <img src="image/friends1.png" alt="Картинка с человеком играющий в VR">
+        </div>
+        <div class="friends-card">
+          <p class="friends-card_title">Аудио-система 5.1
+            с отличным звуком</p>
+          <img src="image/friends2.png" alt="Картинка с игрой на диджеевском пульте">
+        </div>
+        <div class="friends-card">
+          <p class="friends-card_title">Караоке (4 микрофона)</p>
+          <img src="image/friends3.png" alt="Картинка поющей в караоке девушкой">
+        </div>
+        <div class="friends-card">
+          <p class="friends-card_title">Настольные игры</p>
+          <img src="image/friends4.png" alt="Картинка с игрой в Дженгу">
+        </div>
+        <div class="friends-card">
+          <p class="friends-card_title">Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko</p>
+          <img src="image/friends5.png" alt="Телевизор с логотипом Netflix">
+        </div>
+        <div class="friends-card">
+          <p class="friends-card_title">РlаyStаtiоn 5</p>
+          <img src="image/friends6.png" alt="Картинка с комнатой для видео игр">
+        </div>
+      </div>
+    </div>
+   </section>
 
    <section class="hall">
      <div class="container">
        <h2 class="title-hall">Наши залы</h2>
 
-       <ul class="list-hall">
-         <li class="list-hall__hall-vibes">
-           <h2 class="list-hall__title">80’s
-             vibes</h2>
-         </li>
-         <li class="list-hall__hall-wars">
-           <h2 class="list-hall__title">Star
-             wars</h2>
-         </li>
-         <li class="list-hall__hall-west">
-           <h2 class="list-hall__title">wild
-             west</h2>
-         </li>
-         <li class="list-hall__hall-neon">
-           <h2 class="list-hall__title">neon
-             style</h2>
-         </li>
-       </ul>
+       <div class="box-hall">
+         <ul class="list-hall">
+           <li class="list-hall__hall-vibes">
+             <h2 class="list-hall__title">80’s
+               vibes</h2>
+           </li>
+           <li class="list-hall__hall-wars">
+             <h2 class="list-hall__title">Star
+               wars</h2>
+           </li>
+           <li class="list-hall__hall-west">
+             <h2 class="list-hall__title">wild
+               west</h2>
+           </li>
+           <li class="list-hall__hall-neon">
+             <h2 class="list-hall__title">neon
+               style</h2>
+           </li>
+         </ul>
+       </div>
      </div>
    </section>
 
       <section class="form">
      <div class="container">
-       <h2 class="title-form">ЗАБРОНИРОВАТЬ</h2>
+       <h2 class="title-form">ЗАБРОНИРОВАТЬ ЗАЛ ПРОСТО</h2>
 
        <form class="search-form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
          <fieldset>
            <fieldset>
+             <legend class="legend-form_hall">Выбери зал</legend>
+             <div class="block-form_one">
+               <input class="search-form__input search-form__radio" id="vibes" type="radio" name="vibes" value="80's vibes">
+               <label class="label-form_vibes" for="vibes">80's vibes</label>
 
-             <input class="search-form__input search-form__radio" id="vibes" type="radio" name="vibes" value="80's vibes">
-             <label for="vibes">80's vibes</label>
+               <input class="search-form__input search-form__radio" id="wars" type="radio" name="vibes" value="Star Wars">
+               <label class="label-form_wars" for="wars">Star Wars</label>
 
-             <input class="search-form__input search-form__radio" id="wars" type="radio" name="vibes" value="Star Wars">
-             <label for="wars">Star Wars</label>
+               <input class="search-form__input search-form__radio" id="west" type="radio" name="vibes" value="Wild West">
+               <label class="label-form_west" for="west">Wild West</label>
 
-             <input class="search-form__input search-form__radio" id="west" type="radio" name="vibes" value="Wild West">
-             <label for="west">Wild West</label>
-
-             <input class="search-form__input search-form__radio" id="neon" type="radio" name="vibes" value="Neon Style">
-             <label for="neon">Neon Style</label>
+               <input class="search-form__input search-form__radio" id="neon" type="radio" name="vibes" value="Neon Style">
+               <label class="label-form_neon" for="neon">Neon Style</label>
+             </div>
            </fieldset>
            <fieldset>
              <legend>Собери набор развлечений</legend>
