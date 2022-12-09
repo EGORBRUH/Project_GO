@@ -68,5 +68,8 @@
   height: 80px;
   right: 330px;
   bottom: 2px;
-
+}
+.block-about {
+  display: flex;
+  flex-wrap: wrap;
 }

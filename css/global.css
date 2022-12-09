@@ -55,6 +55,7 @@ h3,
 p,
 figure,
 fieldset {
+  padding: 0;
   margin: 0;
 }
 

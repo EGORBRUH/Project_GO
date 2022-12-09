@@ -1,18 +1,14 @@
-.header-nav__content {
+.header-content_menu {
+  display: flex;
   justify-content: space-between;
-  display: flex;
-  padding-top: 30px;
-
-}
-
-.header-nav {
-  display: flex;
+  gap: 50px;
   align-items: center;
+  padding-top: 30px;
 }
 
 .header-list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 
 }
 .header-item {
