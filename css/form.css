@@ -219,3 +219,29 @@ fieldset {
   text-transform: uppercase;
   color: #6C0287;
 }
+
+.search-form__button-submit:hover {
+  background: #EADEED;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+}
+.search-form__button-submit:active {
+  background: #EADEED;
+  border-radius: 10px;
+}
+.search-form__button-submit:focus {
+  background: #FFFFFF;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+}
+.search-form__text-tel {
+  width: 300px;
+  height: 52px;
+  margin-bottom: 14px;
+}
+.search-form__text-tel:hover {
+  width: 300px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 2px solid #CD06FF;
+}

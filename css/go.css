@@ -95,6 +95,30 @@ min-height: 943px;
   color: #ffffff;
   padding: 25px 69px;
 }
+/*hover*/
+.btn-go:hover {
+  background: #6C0287;
+  border: 3px solid #6C0287;
+  border-radius: 10px;
+}
+/*hover*/
+
+/*active*/
+.btn-go:active {
+  background: #640AA3;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+/*active*/
+
+/*focus*/
+.btn-go:focus {
+  background: #6C0287;
+  border-radius: 10px;
+}
+/*focus*/
+
+
 .link-go-arrow {
   position: relative;
   width: 97px;
@@ -106,4 +130,18 @@ min-height: 943px;
   z-index: 2;
   left: 660px;
   top: 800px;
+}
+
+.go-arrow:hover {
+  content: url("../image/arrow-main-hover.svg");
+  fill: white;
+
+  transform: rotate(-45deg);
+
+}
+.go-arrow rect:hover {
+  width: 1.82001px;
+  height: 20.0201px;
+  transform: rotate(-44.9975 34.4253 43.9162);
+  fill: #6C0287;
 }

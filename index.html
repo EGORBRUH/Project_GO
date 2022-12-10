@@ -33,9 +33,9 @@
               <li class="header-item"><a href="">Контакты</a></li>
             </ul>
           </nav>
-          <div class="header-button">
-            <a class="header-btn" href="#">Заказать звонок</a>
-          </div>
+            <div class="header-button">
+              <a class="header-btn" href="#">Заказать звонок</a>
+            </div>
         </div>
         </div>
    </header>
@@ -56,7 +56,7 @@
             аппаратура</p>
         </div>
       </div>
-       <a class="btn-go" href="#">Забронировать</a>
+       <a class="btn-go" onclick="return false;" href="#">Забронировать</a>
 
        <svg class="go-arrow" width="97" height="97" viewBox="0 0 97 97" fill="transparent" xmlns="http://www.w3.org/2000/svg">
            <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
@@ -137,17 +137,17 @@
            <fieldset>
              <legend class="legend-form legend-form_hall">Выбери зал</legend>
              <div class="block-form block-form_one">
-               <input class="search-form__input search-form__radio" id="vibes" type="radio" name="vibes" value="80's vibes">
-               <label class="label-form label-form_vibes" for="vibes">80's vibes</label>
+               <button class="search-form__input search-form__radio" type="button">80's vibes</button>
+               <label class="label-form label-form_vibes">80's vibes</label>
 
-               <input class="search-form__input search-form__radio" id="wars" type="radio" name="vibes" value="Star Wars">
-               <label class="label-form label-form_wars" for="wars">Star Wars</label>
+               <button class="search-form__input search-form__radio">Star Wars</button>
+               <label class="label-form label-form_wars">Star Wars</label>
 
-               <input class="search-form__input search-form__radio" id="west" type="radio" name="vibes" value="Wild West">
-               <label class="label-form label-form_west" for="west">Wild West</label>
+               <button class="search-form__input search-form__radio">Wild West</button>
+               <label class="label-form label-form_west">Wild West</label>
 
-               <input class="search-form__input search-form__radio" id="neon" type="radio" name="vibes" value="Neon Style">
-               <label class="label-form label-form_neon" for="neon">Neon Style</label>
+               <button class="search-form__input search-form__radio">Neon Style</button>
+               <label class="label-form label-form_neon" >Neon Style</label>
              </div>
            </fieldset>
            <fieldset>
@@ -225,7 +225,7 @@
              </fieldset>
              <fieldset class="form-group-three">
                <label for="tel">Телефон</label>
-               <input class="search-form__input search-form__text" id="tel" type="tel" name="tel" required>
+               <input class="search-form__input search-form__text-tel" id="tel" type="tel" name="tel" required>
 
                <label for="mail">E-mail</label>
                <input class="search-form__input search-form__text" id="mail" type="email" name="email" required>
