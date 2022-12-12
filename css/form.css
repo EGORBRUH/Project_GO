@@ -47,7 +47,9 @@ fieldset {
   margin-bottom: 20px;
   margin-right: 12px;
 }
-
+#station:focus {
+  outline: 1px solid #CD06FF;
+}
 .form-title_three {
   font-weight: 700;
   font-size: 24px;
