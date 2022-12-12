@@ -121,15 +121,23 @@ min-height: 943px;
 
 .link-go-arrow {
   position: relative;
+  display: inline-block;
+  left: 150px;
+  top: 50px;
   width: 97px;
   height: 97px;
+
+}
+.link-go-arrow:focus {
+  border: .5px solid  #CD06FF;
+  outline: none;
 
 }
 .go-arrow {
   position: absolute;
   z-index: 2;
-  left: 660px;
-  top: 800px;
+  left: 0;
+  top: 0;
 }
 
 .go-arrow:hover {
@@ -150,6 +158,6 @@ min-height: 943px;
 .go-arrow:active circle {
   stroke: #CD06FF;
 }
-.go-arrow:focus svg {
-  border: 1px solid #CD06FF;
+.go-arrow:focus {
+
 }

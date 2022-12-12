@@ -64,6 +64,14 @@
   height: 32px;
   display: inline-block;
 }
+.contacts-link_tel:hover {
+  color: #CD06FF;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+.contacts-link_mail:hover {
+  color: #CD06FF;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
 /*before*/
 
 .contacts-text_add {

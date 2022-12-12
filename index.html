@@ -58,7 +58,7 @@
       </div>
        <a class="btn-go" onclick="return false;" href="#">Забронировать</a>
 
-       <a href="#"><svg class="go-arrow" width="97" height="97" viewBox="0 0 97 97" fill="transparent" xmlns="http://www.w3.org/2000/svg">
+       <a class="link-go-arrow" onclick="return false;" href="#"><svg class="go-arrow" width="97" height="97" viewBox="0 0 97 97" fill="transparent" xmlns="http://www.w3.org/2000/svg">
          <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
          <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
          <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 48.5807 58.0737)" fill="white"/>
@@ -137,17 +137,17 @@
            <fieldset>
              <legend class="legend-form legend-form_hall">Выбери зал</legend>
              <div class="block-form block-form_one">
-               <button class="search-form__input search-form__radio" type="button">80's vibes</button>
-               <label class="label-form label-form_vibes">80's vibes</label>
+               <input class="search-form__input search-form__radio" id="vibes" type="radio">
+               <label for="vibes" class="label-form label-form_vibes">80's vibes</label>
 
-               <button class="search-form__input search-form__radio">Star Wars</button>
-               <label class="label-form label-form_wars">Star Wars</label>
+               <input class="search-form__input search-form__radio" id="wars" type="radio">
+               <label for="wars" class="label-form label-form_wars">Star Wars</label>
 
-               <button class="search-form__input search-form__radio">Wild West</button>
-               <label class="label-form label-form_west">Wild West</label>
+               <input class="search-form__input search-form__radio" id="west" type="radio">
+               <label for="west" class="label-form label-form_west">Wild West</label>
 
-               <button class="search-form__input search-form__radio">Neon Style</button>
-               <label class="label-form label-form_neon" >Neon Style</label>
+               <input class="search-form__input search-form__radio" id="neon" type="radio">
+               <label for="neon" class="label-form label-form_neon" >Neon Style</label>
              </div>
            </fieldset>
            <fieldset>
@@ -361,7 +361,17 @@
       </div>
 
     </div>
-
+  </section>
+  <section class="designer">
+      <div class="container">
+        <div class="content-design">
+          <p class="go-designer">© Game Over, 2022</p>
+          <div class="column-design">
+            <p class="name-designer">Design by Anastasia Ilina</p>
+            <a class="mailto-designer" href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a>
+        </div>
+        </div>
+      </div>
   </section>
 </footer>
 </body>

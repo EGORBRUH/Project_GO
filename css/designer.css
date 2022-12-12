@@ -1,0 +1,11 @@
+.content-design {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+.designer {
+  padding-bottom: 10px;
+}
+.mailto-designer:hover {
+  font-size: 30px;
+}

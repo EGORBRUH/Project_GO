@@ -29,10 +29,32 @@ fieldset {
   display: flex;
   justify-content: space-evenly;
 }
+.search-form__radio:checked + .label-form_vibes{
+  background-color: #6C0287;
+  color: #FFFFFF;
+  border: 6px solid #6C0287;
+}
 
+.search-form__radio:checked + .label-form_wars {
+  border: 6px solid #6C0287;
+  background-color: #6C0287;
+  color: #FFFFFF;
+}
+.search-form__radio:checked + .label-form_west {
+  border: 6px solid #6C0287;
+  background-color: #6C0287;
+  color: #FFFFFF;
+}
+.search-form__radio:checked + .label-form_neon {
+  border: 6px solid #6C0287;
+  background-color: #6C0287;
+  color: #FFFFFF;
+}
 .search-form__radio {
   display: none;
 }
+
+
 
 .search-form__checkbox {
   width: 25px;

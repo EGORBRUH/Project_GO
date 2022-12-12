@@ -20,6 +20,11 @@
   color: #FFFFFF;
 
 }
+
+.header-item:hover {
+  color: #CD06FF;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
 .header-item:last-child {
   padding: 0;
 }
