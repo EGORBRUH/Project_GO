@@ -98,8 +98,12 @@ min-height: 943px;
 /*hover*/
 .btn-go:hover {
   background: #6C0287;
-  border: 3px solid #6C0287;
+  border: 1px solid #6C0287;
   border-radius: 10px;
+  box-shadow: 2px 2px 30px 5px #6C0287;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
 }
 /*hover*/
 
@@ -108,6 +112,10 @@ min-height: 943px;
   background: #640AA3;
   border: 1px solid #000000;
   border-radius: 10px;
+  box-shadow: 2px 2px 30px 1px #6C0287;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
 }
 /*active*/
 
@@ -115,6 +123,9 @@ min-height: 943px;
 .btn-go:focus {
   background: #6C0287;
   border-radius: 10px;
+  transition-property: all;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
 }
 /*focus*/
 
@@ -131,6 +142,9 @@ min-height: 943px;
 .link-go-arrow:focus {
   border: .5px solid  #CD06FF;
   outline: none;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 
 }
 .go-arrow {
@@ -140,23 +154,38 @@ min-height: 943px;
   top: 0;
 }
 
-.go-arrow:hover {
+.go-arrow:hover circle {
   background: url("../image/arrow-main-hover.svg");
-
+  fill: white;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 
 .go-arrow:hover rect {
   fill: #6C0287;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
 }
 .go-arrow:active {
- background: url("../image/arrow-main-active.svg");
+  background: url("../image/arrow-main-active.svg");
+  transition-property: all;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
 
 }
 .go-arrow:active rect {
   fill: white;
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 .go-arrow:active circle {
-  stroke: #CD06FF;
+  fill: #CD06FF;
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 .go-arrow:focus {
 

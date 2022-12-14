@@ -13,9 +13,18 @@
   flex-wrap: wrap;
   gap: 39px 20px;
 }
+
+
+
 .friends-card {
   position: relative;
+  transition: 1s;
 }
+.friends-card:hover {
+  transform: scale(1.1);
+}
+
+
 .friends-card_title {
   max-width: 300px;
   font-weight: 700;
