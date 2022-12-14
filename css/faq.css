@@ -33,9 +33,6 @@
 
 .question-list-item:nth-child(1n+1):after {
   content: url("../icon/open-purple.svg");
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
   text-align: center;
   width: 45px;
   height: 45px;
@@ -44,16 +41,12 @@
 
 .question-list-item:nth-child(2n+2):hover:after {
   content: url("../image/open-purple.svg");
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
+
 }
 
 .question-list-item:hover:after {
   content: url("../image/open-white.svg");
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
+
 
 }
 .question-list-item:nth-child(2n+2):after {
@@ -65,9 +58,6 @@
 
 .question-list-item:after {
   position: absolute;
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
   right: 60px;
   bottom: 20px;
 }
