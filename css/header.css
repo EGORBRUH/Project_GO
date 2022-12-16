@@ -22,8 +22,8 @@
 }
 
 .header-item:hover {
-  color: #CD06FF;
-  text-shadow: 2px 2px 3px #CD06FF;
+  color: var(--gocolor, rgba(205, 6, 255, 1));
+  text-shadow: 2px 2px 3px #ffffff;
   transition-property: color;
   transition-duration: 1s;
   transition-timing-function: ease-out;
@@ -38,7 +38,7 @@
 .header-btn {
   display: flex;
   justify-content: end;
-  border: 3px solid #CD06FF;
+  border: 3px solid var(--main-color, #640AA3);
   border-radius: 10px;
   color: #ffffff;
   background: transparent;
@@ -50,8 +50,8 @@
 }
 /*Hover*/
 .header-btn:hover {
-  background: #6C0287;
-  border: 3px solid #6C0287;
+  background: var(--go-colorone, #6C0287);
+  border: 3px solid var(--go-colorone, #6C0287);
   border-radius: 10px;
   transition-property: background, color;
   transition-duration: 1s;
@@ -59,7 +59,7 @@
 }
 
 .header-btn:active {
-  background: #640AA3;
+  background: var(--main-color, #640AA3);
   border: 3px solid #000000;
   border-radius: 10px;
   transition-property: background, color;
@@ -69,7 +69,7 @@
 /*active*/
 /*focus*/
 .header-btn:focus {
-  background: #6C0287;
+  background: var(--go-colorone, #6C0287);
   border-radius: 10px;
   transition-property: background, color;
   transition-duration: 1s;

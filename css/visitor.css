@@ -21,6 +21,19 @@
   align-items: center;
 
 }
+.visitor-item figure{
+  position: relative;
+}
+.visitor-item figure:before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+  border-radius: 140px;
+  z-index: 1;
+  top: 0;
+}
 .visitor-item p {
   flex-basis: 680px;
 
@@ -38,4 +51,21 @@
 .visitor-item img {
   margin-bottom: 11px;
   /*margin: 0 20px 11px 0;*/
+}
+.visitor-img {
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+}
+.visitor-img:before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+  opacity: 0.8;
 }

@@ -40,12 +40,12 @@
 .quote-text:before {
   content: "“";
   font-size: 60px;
-  color: rgba(108, 2, 135, 1);
+  color: var(--go-colorone) #6C0287;
 }
 .quote-text:after {
   content: "”";
   font-size: 60px;
-  color: rgba(108, 2, 135, 1);
+  color: var(--go-colorone) #6C0287;
 
 }
 .quote-author {

@@ -65,14 +65,14 @@
   display: inline-block;
 }
 .contacts-link_tel:hover {
-  color: #CD06FF;
+  color: var(--gocolor, rgba(205, 6, 255, 1));
   text-shadow: -2px -2px 3px #FFFFFF;
   transition-property: all;
   transition-duration: .4s;
   transition-timing-function: ease-out;
 }
 .contacts-link_mail:hover {
-  color: #CD06FF;
+  color: var(--gocolor, rgba(205, 6, 255, 1));
   text-shadow: -2px -2px 3px #FFFFFF;
   transition-property: all;
   transition-duration: .4s;

@@ -23,8 +23,12 @@
 .friends-card:hover {
   transform: scale(1.1);
 }
-
-
+.friends-card-two:hover {
+  transform: translateY(80px);
+}
+.friends-card-five:hover {
+  transform: translateY(80px);
+}
 .friends-card_title {
   max-width: 300px;
   font-weight: 700;

@@ -30,31 +30,32 @@ fieldset {
   justify-content: space-evenly;
 }
 .search-form__radio:checked + .label-form_vibes{
-  background-color: #6C0287;
+  background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
-  border: 1px solid #6C0287;
+  border: 1px solid var(--main-color,  #640AA3);
 }
 
 .search-form__radio:checked + .label-form_wars {
-  border: 1px solid #6C0287;
-  background-color: #6C0287;
+  border: 1px solid var(--main-color, #640AA3);
+  background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
 }
 .search-form__radio:checked + .label-form_west {
-  border: 1px solid #6C0287;
-  background-color: #6C0287;
+  border: 1px solid var(--main-color, #640AA3);
+  background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
 }
 .search-form__radio:checked + .label-form_neon {
-  border: 1px solid #6C0287;
-  background-color: #6C0287;
+  border: 1px solid var(--main-color, #640AA3);
+  background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
 
 }
 /*hover*/
 .label-form_vibes:hover   {
   background: #EADEED;
-  border: 1px solid #640AA3;
+  position: relative;
+  border: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
   border-radius: 8px;
   transition-property: all;
   transition-duration: 0.5s;
@@ -62,7 +63,7 @@ fieldset {
 }
 
 .label-form_vibes:active {
-  background: #6C0287;
+  background: var(--gocolor, rgba(205, 6, 255, 1));
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   transition-property: all;
@@ -71,7 +72,7 @@ fieldset {
 }
 .label-form_vibes:focus {
   background: #FFFFFF;
-  border: 1px solid #640AA3;
+  border: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
   border-radius: 8px;
   transition-property: all;
   transition-duration: 1s;
@@ -82,14 +83,15 @@ fieldset {
 /*active*/
 .label-form_wars:hover {
   background: #EADEED;
-  border: 1px solid #640AA3;
+  position: relative;
+  border: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
   border-radius: 8px;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 .label-form_wars:active {
-  background: #6C0287;
+  background: var(--gocolor, rgba(205, 6, 255, 1));
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   transition-property: all;
@@ -98,7 +100,7 @@ fieldset {
 }
 .label-form_wars:focus {
   background: #FFFFFF;
-  border: 1px solid #640AA3;
+  border: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
   border-radius: 8px;
   transition-property: all;
   transition-duration: 1s;
@@ -108,16 +110,17 @@ fieldset {
 
 /*focus*/
 
-.label-form_west:hover   {
+.label-form_west:hover {
   background: #EADEED;
-  border: 1px solid #640AA3;
+  position: relative;
+  border: 1px solid var(--main-color, #640AA3) ;
   border-radius: 8px;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 .label-form_west:active {
-  background: #6C0287;
+  background: var(--main-color, #640AA3) ;
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   transition-property: all;
@@ -126,7 +129,7 @@ fieldset {
 }
 .label-form_west:focus {
   background: #FFFFFF;
-  border: 1px solid #640AA3;
+  border: 1px solid var(--main-color, #640AA3) ;
   border-radius: 8px;
   transition-property: all;
   transition-duration: 1s;
@@ -137,14 +140,15 @@ fieldset {
 
 .label-form_neon:hover{
   background: #EADEED;
-  border: 1px solid #640AA3;
+  position: relative;
+  border: 1px solid var(--main-color, #640AA3);
   border-radius: 8px;
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
 .label-form_neon:active{
-  background: #6C0287;
+  background: var(--main-color, #640AA3);
   border: 1px solid #FFFFFF;
   border-radius: 8px;
   transition-property: all;
@@ -152,8 +156,9 @@ fieldset {
   transition-timing-function: ease-out;
 }
 .label-form_neon:focus{
+
   background: #FFFFFF;
-  border: 1px solid #640AA3;
+  border: 1px solid var(--main-color,  #640AA3);
   border-radius: 8px;
   transition-property: all;
   transition-duration: 1s;
@@ -162,6 +167,7 @@ fieldset {
 
 .search-form__radio {
   display: none;
+
 }
 
 
@@ -180,7 +186,7 @@ fieldset {
   margin-right: 12px;
 }
 #station:focus {
-  outline: 1px solid #CD06FF;
+  outline: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
 }
 .form-title_three {
   font-weight: 700;
@@ -351,12 +357,12 @@ fieldset {
   padding: 16px 50px;
   border: none;
   text-transform: uppercase;
-  color: #6C0287;
+  color: var(--main-color, #640AA3);
 }
 
 .search-form__button-submit:hover {
   background: #EADEED;
-  border: 1px solid #6C0287;
+  border: 1px solid var(--main-color, #640AA3);
   border-radius: 10px;
 }
 .search-form__button-submit:active {
@@ -365,7 +371,7 @@ fieldset {
 }
 .search-form__button-submit:focus {
   background: #FFFFFF;
-  border: 1px solid #6C0287;
+  border: 1px solid var(--main-color, #640AA3);
   border-radius: 10px;
 }
 .search-form__text-tel {
@@ -377,7 +383,7 @@ fieldset {
   width: 300px;
   height: 52px;
   background: #FFFFFF;
-  border: 2px solid #CD06FF;
+  border: 2px solid var(--gocolor, rgba(205, 6, 255, 1));
   transition-property: all;
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
