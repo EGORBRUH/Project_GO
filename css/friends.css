@@ -23,10 +23,10 @@
 .friends-card:hover {
   transform: scale(1.1);
 }
-.friends-card-two:hover {
+.friends-card-two {
   transform: translateY(80px);
 }
-.friends-card-five:hover {
+.friends-card-five{
   transform: translateY(80px);
 }
 .friends-card_title {
