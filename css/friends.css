@@ -18,17 +18,37 @@
 
 .friends-card {
   position: relative;
-  transition: 1s;
+  transition: 0.5s;
 }
-.friends-card:hover {
+
+.friends-card-one:hover {
   transform: scale(1.1);
 }
+.friends-card-three:hover {
+  transform: scale(1.1);
+}
+.friends-card-four:hover {
+  transform: scale(1.1);
+}
+.friends-card-six:hover {
+  transform: scale(1.1);
+}
+
+
 .friends-card-two {
   transform: translateY(80px);
 }
-.friends-card-five{
+.friends-card-two:hover {
+  transform: scale(1.1) translateY(80px);
+
+}
+.friends-card-five {
   transform: translateY(80px);
 }
+.friends-card-five:hover {
+  transform: scale(1.1) translateY(80px);
+}
+
 .friends-card_title {
   max-width: 300px;
   font-weight: 700;
