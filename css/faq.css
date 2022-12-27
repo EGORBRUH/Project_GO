@@ -36,19 +36,16 @@
   text-align: center;
   width: 45px;
   height: 45px;
-
 }
 
 .question-list-item:nth-child(2n+2):hover:after {
   content: url("../image/open-purple.svg");
-
 }
 
 .question-list-item:hover:after {
   content: url("../image/open-white.svg");
-
-
 }
+
 .question-list-item:nth-child(2n+2):after {
   content: url("../icon/open.svg");
   color: white;

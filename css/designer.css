@@ -3,12 +3,11 @@
   justify-content: space-between;
   text-align: right;
 }
+
 .designer {
   padding-bottom: 10px;
 }
-.mailto-designer {
 
-}
 .mailto-designer:hover {
   font-size: 20px;
   color: aqua;

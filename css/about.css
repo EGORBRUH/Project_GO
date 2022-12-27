@@ -3,6 +3,7 @@
   float: left;
   margin-right: 80px;
 }
+
 .title-about {
   font-size: 40px;
   line-height: 50px;
@@ -10,19 +11,21 @@
   text-transform: uppercase;
   margin-bottom: 50px;
 }
+
 .text-about__first {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 50px;
 }
+
 .text-about__last {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 48px;
-
 }
+
 .quote {
   position: relative;
   margin: 0;
@@ -42,12 +45,13 @@
   font-size: 60px;
   color: var(--go-colorone) #6C0287;
 }
+
 .quote-text:after {
   content: "”";
   font-size: 60px;
   color: var(--go-colorone) #6C0287;
-
 }
+
 .quote-author {
   display: inline-block;
   padding-left: 191px;
@@ -57,6 +61,7 @@
   font-size: 20px;
   line-height: 28px;
 }
+
 .quote-author cite {
   display: inline;
 }
@@ -69,6 +74,7 @@
   right: 330px;
   bottom: 2px;
 }
+
 .block-about {
   display: flex;
   flex-wrap: wrap;

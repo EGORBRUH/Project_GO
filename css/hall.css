@@ -1,11 +1,10 @@
-
 .list-hall{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px 20px;
-
 }
+
 .title-hall {
   text-align: center;
   text-transform: uppercase;
@@ -23,8 +22,8 @@
   background-repeat: no-repeat;
   width: 580px;
   height: 349px;
-
 }
+
 .list-hall__title{
   max-width: 252px;
   font-weight: 700;
@@ -32,7 +31,6 @@
   line-height: 80px;
   text-align: center;
   text-transform: uppercase;
-
 }
 
 .list-hall__hall-wars {
@@ -43,7 +41,6 @@
   background-repeat: no-repeat;
   width: 580px;
   height: 349px;
-
 }
 
 .list-hall__hall-west {
@@ -54,7 +51,6 @@
   background-repeat: no-repeat;
   width: 580px;
   height: 349px;
-
 }
 
 .list-hall__hall-neon{
@@ -66,6 +62,5 @@
   width: 580px;
   height: 349px;
   background-position: -15px 0;
-
 }
 

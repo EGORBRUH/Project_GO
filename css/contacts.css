@@ -1,6 +1,7 @@
 .footer {
   background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
 }
+
 .contacts-title {
   font-weight: 700;
   font-size: 40px;
@@ -13,25 +14,26 @@
 .block-social {
   display: flex;
   justify-content: space-evenly;
-
 }
+
 .contacts {
   position: relative;
   display: flex;
-
   vertical-align: center;
   flex-direction: column;
 }
+
 .list-social {
   display: flex;
   margin: auto;
-
   gap: 27px;
 }
+
 .social-map {
   display: flex;
   justify-content: end;
 }
+
 /*before*/
 .contacts-text_add:before {
   content: "";
@@ -44,6 +46,7 @@
   height: 32px;
   display: inline-block;
 }
+
 .contacts-link_tel:before {
   content: "";
   background-image: url("../image/tel.svg");
@@ -54,6 +57,7 @@
   height: 32px;
   display: inline-block;
 }
+
 .contacts-link_mail:before {
   content: "";
   background-image: url("../image/message.svg");
@@ -64,6 +68,7 @@
   height: 32px;
   display: inline-block;
 }
+
 .contacts-link_tel:hover {
   color: var(--gocolor, rgba(205, 6, 255, 1));
   text-shadow: -2px -2px 3px #FFFFFF;
@@ -71,6 +76,7 @@
   transition-duration: .4s;
   transition-timing-function: ease-out;
 }
+
 .contacts-link_mail:hover {
   color: var(--gocolor, rgba(205, 6, 255, 1));
   text-shadow: -2px -2px 3px #FFFFFF;
@@ -79,7 +85,6 @@
   transition-timing-function: ease-out;
 }
 /*before*/
-
 .contacts-text_add {
   max-width: 250px;
   font-style: normal;
@@ -89,7 +94,6 @@
   margin-bottom: 39px;
 }
 
-
 .contacts-link_tel {
   font-style: normal;
   font-weight: 700;
@@ -97,13 +101,13 @@
   line-height: 28px;
   margin-bottom: 14px;
 }
+
 .contacts-link_mail{
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 35px;
-
 }
 
 

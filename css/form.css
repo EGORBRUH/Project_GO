@@ -29,6 +29,7 @@ fieldset {
   display: flex;
   justify-content: space-evenly;
 }
+
 .search-form__radio:checked + .label-form_vibes{
   background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
@@ -40,11 +41,13 @@ fieldset {
   background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
 }
+
 .search-form__radio:checked + .label-form_west {
   border: 1px solid var(--main-color, #640AA3);
   background-color: rgba(108, 2, 135, 1);
   color: #FFFFFF;
 }
+
 .search-form__radio:checked + .label-form_neon {
   border: 1px solid var(--main-color, #640AA3);
   background-color: rgba(108, 2, 135, 1);
@@ -70,6 +73,7 @@ fieldset {
   transition-duration: 1s;
   transition-timing-function: ease-out;
 }
+
 .label-form_vibes:focus {
   background: #FFFFFF;
   border: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
@@ -90,6 +94,7 @@ fieldset {
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
+
 .label-form_wars:active {
   background: var(--gocolor, rgba(205, 6, 255, 1));
   border: 1px solid #FFFFFF;
@@ -98,6 +103,7 @@ fieldset {
   transition-duration: 1s;
   transition-timing-function: ease-out;
 }
+
 .label-form_wars:focus {
   background: #FFFFFF;
   border: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
@@ -119,6 +125,7 @@ fieldset {
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
+
 .label-form_west:active {
   background: var(--main-color, #640AA3) ;
   border: 1px solid #FFFFFF;
@@ -127,6 +134,7 @@ fieldset {
   transition-duration: 1s;
   transition-timing-function: ease-out;
 }
+
 .label-form_west:focus {
   background: #FFFFFF;
   border: 1px solid var(--main-color, #640AA3) ;
@@ -156,7 +164,6 @@ fieldset {
   transition-timing-function: ease-out;
 }
 .label-form_neon:focus{
-
   background: #FFFFFF;
   border: 1px solid var(--main-color,  #640AA3);
   border-radius: 8px;
@@ -167,10 +174,7 @@ fieldset {
 
 .search-form__radio {
   display: none;
-
 }
-
-
 
 .search-form__checkbox {
   width: 25px;
@@ -185,9 +189,11 @@ fieldset {
   margin-bottom: 20px;
   margin-right: 12px;
 }
+
 #station:focus {
   outline: 1px solid var(--gocolor, rgba(205, 6, 255, 1));
 }
+
 .form-title_three {
   font-weight: 700;
   font-size: 24px;
@@ -230,10 +236,12 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
+
 .block-form_two label {
   display: flex;
   align-items: flex-start;
 }
+
 .block-form_two label,
 .block-form_three label,
 .block-form_four label{
@@ -252,14 +260,17 @@ fieldset {
   display: flex;
   flex-direction: column;
 }
+
 .block-form_three label {
   display: flex;
   align-items: flex-start;
 }
+
 .block-form_four {
   display: flex;
   flex-direction: column;
 }
+
 .block-form_four label {
   display: flex;
   align-items: flex-start;
@@ -272,7 +283,6 @@ fieldset {
   margin-bottom: 40px;
   align-items: center;
   gap: 0 50px;
-
 }
 .form-title_four {
   font-weight: 700;
@@ -346,8 +356,8 @@ fieldset {
   max-width:1090px;
   display: flex;
   justify-content:flex-end;
-
 }
+
 .search-form__button-submit  {
   background: #FFFFFF;
   border-radius: 10px;
@@ -365,20 +375,24 @@ fieldset {
   border: 1px solid var(--main-color, #640AA3);
   border-radius: 10px;
 }
+
 .search-form__button-submit:active {
   background: #EADEED;
   border-radius: 10px;
 }
+
 .search-form__button-submit:focus {
   background: #FFFFFF;
   border: 1px solid var(--main-color, #640AA3);
   border-radius: 10px;
 }
+
 .search-form__text-tel {
   width: 300px;
   height: 52px;
   margin-bottom: 14px;
 }
+
 .search-form__text-tel:hover {
   width: 300px;
   height: 52px;
