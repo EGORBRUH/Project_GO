@@ -25,8 +25,8 @@
   background-color: #440F51;
   color: #fff;
   list-style: none;
-
 }
+
 .question-list-item:last-child {
   margin: 0;
 }
@@ -58,6 +58,30 @@
   right: 60px;
   bottom: 20px;
 }
+
+
+@media (max-width: 1024px) {
+  .question-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .question-list-item:nth-child(2n) {
+    background-color: #ffffff;
+    color: #000000;
+    list-style: none;
+  }
+  .question-list-item:nth-child(2n+2):after {
+    content: url("../icon/open-purple.svg");
+    color: white;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+
 
 
 

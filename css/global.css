@@ -75,10 +75,11 @@ section {
 }
 
 .container {
-  max-width: 1240px;
+  max-width: 1180px;
   padding: 0 30px;
   margin: 0 auto;
 }
+
 
 /*
 Пример контейнера
@@ -88,3 +89,14 @@ section {
 в итоге 1240px
 Чтобы контент не прижимался к краям экрана
 */
+
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1180px;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+
+  }
+

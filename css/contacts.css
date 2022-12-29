@@ -17,56 +17,20 @@
 }
 
 .contacts {
+  flex-basis: 500px;
   position: relative;
   display: flex;
-  vertical-align: center;
   flex-direction: column;
 }
 
 .list-social {
   display: flex;
-  margin: auto;
   gap: 27px;
 }
 
 .social-map {
   display: flex;
   justify-content: end;
-}
-
-/*before*/
-.contacts-text_add:before {
-  content: "";
-  background-image: url("../image/location.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: -40px;
-  top: 10px;
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-}
-
-.contacts-link_tel:before {
-  content: "";
-  background-image: url("../image/tel.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: -35px;
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-}
-
-.contacts-link_mail:before {
-  content: "";
-  background-image: url("../image/message.svg");
-  background-repeat: no-repeat;
-  position: absolute;
-  left: -35px;
-  width: 32px;
-  height: 32px;
-  display: inline-block;
 }
 
 .contacts-link_tel:hover {
@@ -86,7 +50,11 @@
 }
 /*before*/
 .contacts-text_add {
-  max-width: 250px;
+  background-image: url("../image/location.svg");
+  background-repeat: no-repeat;
+  background-position: 0 12px;
+  padding-left: 65px;
+  max-width: 300px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -95,6 +63,9 @@
 }
 
 .contacts-link_tel {
+  background-image: url("../image/tel.svg");
+  background-repeat: no-repeat;
+  padding-left: 65px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -103,12 +74,32 @@
 }
 
 .contacts-link_mail{
+  background-image: url("../image/message.svg");
+  background-repeat: no-repeat;
+  padding-left: 65px;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   margin-bottom: 35px;
 }
+
+
+
+@media (max-width: 1024px) {
+  .contacts-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+}
+
+
+
+
 
 
 

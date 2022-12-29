@@ -1,15 +1,11 @@
-.header {
-  position: relative;
-}
-
 .go {
   min-height: 943px;
+  position: relative;
 }
 
 .title-go {
   font-family: "Arial Black", sans-serif;
   font-weight: 900;
-  /*text-align: left;*/
   position: relative;
   font-size: 150px;
   letter-spacing: -0.1em;
@@ -19,8 +15,8 @@
   content: url("../image/img_title.png");
   max-height: 762px;
   position: absolute;
-  top: 80px;
-  right: 10px;
+  top: 90px;
+  right: -55px;
 }
 
 .text-go-title {
@@ -193,3 +189,105 @@
   transition-duration: .2s;
   transition-timing-function: ease-out;
 }
+
+
+
+@media (max-width: 1024px) {
+  .go {
+    padding: 30px 0;
+    min-height: 643px;
+  }
+
+  .title-go {
+    font-family: "Arial Black", sans-serif;
+    font-weight: 900;
+    position: relative;
+    font-size: 120px;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+  }
+  .title-go:after {
+    content: "";
+    background-image: url("../image/img_title.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 453px;
+    height: 520px;
+    position: absolute;
+    top: 65px;
+    right: 0px;
+  }
+
+  .text-go-title {
+    padding-left: 90px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+  }
+
+  .block-go_text {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 50px;
+  }
+
+  .text-go_text {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .btn-go {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    border: none;
+    box-shadow: 2px 2px 30px 2px var(--go-colorone);
+    text-transform: uppercase;
+    background: var(--go-colorone, #6C0287);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 17px 48px;
+    transform: translateX(50px);
+  }
+
+  .text-go_big {
+    font-family: "Arial Black", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 113px;
+    color: var(--gocolor,  rgba(205, 6, 255, 1));
+    align-self: center;
+  }
+
+  .text-go_new {
+    font-family: "Arial Black", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 85px;
+    font-variant: small-caps;
+    color: var(--gocolor, rgba(205, 6, 255, 1)) ;
+  }
+  .link-go-arrow {
+    position: relative;
+    display: inline-block;
+    left: 120px;
+    top: 60px;
+    width: 67px;
+    height: 67px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

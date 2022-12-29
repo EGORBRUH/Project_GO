@@ -65,3 +65,45 @@
 /*  position: absolute;*/
 /*  left: 140px;*/
 /*}*/
+
+@media (max-width: 1024px) {
+  .friends {
+    min-height: 670px;
+  }
+  .friends-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 36px;
+  }
+
+  .friends-card img {
+    width: 282px;
+    position: relative;
+    transition: 0.5s;
+  }
+  .friends-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 22px;
+  }
+  .friends-card_title {
+    max-width: 247px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    bottom: 16px;
+    left: 20px;
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+}
+
+
+
+
+
+
+

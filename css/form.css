@@ -6,7 +6,7 @@ fieldset {
   border: none;
 }
 
-.title-form {
+.title {
   font-size: 40px;
   line-height: 50px;
   text-align: center;
@@ -348,6 +348,18 @@ fieldset {
   margin-bottom: 14px;
 }
 
+.search-form__text-name {
+  width: 300px;
+  height: 52px;
+  margin-bottom: 14px;
+}
+
+.search-form__text-lastname {
+  width: 300px;
+  height: 52px;
+
+}
+
 .search-form__text:last-child {
   margin: 0;
 }
@@ -402,3 +414,109 @@ fieldset {
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  .label-form_vibes,
+  .label-form_neon,
+  .label-form_west,
+  .label-form_wars {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 68px ;
+  }
+
+  .title-form_group {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+
+  .search-form__text-tel {
+    width: 254px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text {
+    width: 254px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__button-submit  {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 13px 46px;
+    border: none;
+    text-transform: uppercase;
+    color: var(--main-color, #640AA3);
+  }
+
+  .block-form_group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+  }
+
+  .search-form__text-name {
+    width: 250px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-lastname {
+    width: 250px;
+    height: 52px;
+  }
+
+  .block-form_one {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-group-one {
+    flex-basis: 300px;
+    display: flex;
+    justify-content: start;
+    align-self: end;
+    gap: 38px 20px;
+    flex-wrap: wrap;
+  }
+
+  .form-title_five {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+}
+
+
+
+

@@ -79,3 +79,69 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+
+
+
+
+@media  (max-width: 1024px) {
+  .title-about {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about img {
+    width: 420px;
+    height: 417px;
+    float: left;
+    margin-right: 40px;
+  }
+
+  .text-about__first {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 37px;
+  }
+
+  .text-about__last {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 37px;
+  }
+  .quote-text {
+    position: relative;
+    font-weight: 400;
+    white-space: normal;
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 13px;
+  }
+  .quote-text:before {
+    content: "“";
+    position: absolute;
+    left: -10px;
+    font-size: 30px;
+    color: var(--go-colorone) #6C0287;
+  }
+
+  .quote-text:after {
+    content: "”";
+    position: absolute;
+    font-size: 30px;
+    color: var(--go-colorone) #6C0287;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

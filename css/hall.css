@@ -24,7 +24,7 @@
   height: 349px;
 }
 
-.list-hall__title{
+.list-hall__title {
   max-width: 252px;
   font-weight: 700;
   font-size: 70px;
@@ -53,7 +53,7 @@
   height: 349px;
 }
 
-.list-hall__hall-neon{
+.list-hall__hall-neon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,4 +63,36 @@
   height: 349px;
   background-position: -15px 0;
 }
+
+
+@media (max-width: 1024px) {
+
+  .list-hall{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 15px;
+  }
+
+  .list-hall__hall-vibes,
+  .list-hall__hall-wars,
+  .list-hall__hall-west,
+  .list-hall__hall-neon {
+    width: 443px;
+    height: 267px;
+  }
+  .title-hall {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .list-hall__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+
+
 
