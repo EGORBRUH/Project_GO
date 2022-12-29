@@ -27,7 +27,7 @@ fieldset {
 
 .block-form_one {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .search-form__radio:checked + .label-form_vibes{
@@ -219,7 +219,7 @@ fieldset {
   text-transform: uppercase;
   color: #000000;
   background: #FFFFFF;
-  padding: 7px 15px;
+  padding: 7px 35px;
   border-radius: 8px;
   margin-bottom: 68px ;
 }
@@ -302,12 +302,15 @@ fieldset {
 .form-group-one {
   flex-basis: 300px;
   display: flex;
-  justify-content: end;
+  justify-content: start;
   align-self: end;
   gap: 38px 20px;
   flex-wrap: wrap;
 }
-
+.form-input {
+  display: flex;
+  gap: 60px;
+}
 .form-group-two {
   display: flex;
   align-self: flex-start;
@@ -473,6 +476,7 @@ fieldset {
     line-height: 24px;
     padding: 13px 46px;
     border: none;
+    box-shadow: 0 0 18px 0 #ffffff;
     text-transform: uppercase;
     color: var(--main-color, #640AA3);
   }
@@ -515,8 +519,248 @@ fieldset {
     text-align: center;
     margin-bottom: 26px;
   }
+  .form-input {
+    display: flex;
+    gap: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .label-form_vibes,
+  .label-form_neon,
+  .label-form_west,
+  .label-form_wars {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 9px 20px;
+    margin-bottom: 59px ;
+  }
+
+  .block-form_one {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .block-form_group {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 67px;
+  }
+
+  .search-form__text-tel {
+    width: 300px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text {
+    width: 300px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-name {
+    width: 280px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-lastname {
+    width: 280px;
+    height: 52px;
+  }
+  .form-input {
+    display: flex;
+    gap: 106px;
+  }
+
+  .form-group-two {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+  }
+
+  .block-form_five {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group-one {
+    max-width: 800px;
+    flex-basis: 95px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+  }
+
+  .form-group-three {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-form__button-submit  {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 16px 50px;
+    box-shadow: 0 0 18px 0 #ffffff;
+  }
+
+  .search-form__time {
+    margin-right: 85px;
+  }
+
+  .search-form__number {
+    width: 300px;
+    height: 52px;
+  }
+
 }
 
 
 
+@media  (max-width: 320px) {
+  .form {
 
+  }
+  .title {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .legend-form_hall {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .title-form_group {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .form-title_two {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .block-form_two label,
+  .block-form_three label,
+  .block-form_four label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .form-console {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .form-title_three {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .form-title_four {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .label-form_vibes,
+  .label-form_neon,
+  .label-form_west,
+  .label-form_wars {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 6px 20px;
+    border-radius: 4px;
+    margin-bottom: 0;
+  }
+
+  .label-form_vibes,
+  .label-form_wars {
+    padding: 6px 23px;
+  }
+
+  .block-form_one {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .block-form_group {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 67px;
+  }
+
+  .block-form_five {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .search-form__number {
+    width: 280px;
+    height: 52px;
+  }
+
+  .search-form__text {
+    width: 280px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-tel {
+    width: 280px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__button-submit  {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 17px 59px;
+    box-shadow: 0 0 18px 0 #ffffff;
+  }
+
+  .form-group-one {
+    max-width: 800px;
+    flex-basis: 95px;
+    flex-direction: row;
+    display: flex;
+    gap: 10px 20px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-self: start;
+  }
+
+  .search-form__time {
+    margin-right: 0;
+  }
+}

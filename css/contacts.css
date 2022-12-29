@@ -88,18 +88,117 @@
 
 @media (max-width: 1024px) {
   .contacts-title {
-    font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    text-align: center;
-    text-transform: uppercase;
     margin-bottom: 40px;
   }
 }
 
 
+@media (max-width: 768px) {
+  .block-social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contacts {
+    flex-basis: 0;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    max-width: 600px;
+    gap: 30px;
+  }
+
+  .list-social__item {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contacts-text_add {
+    background-repeat: no-repeat;
+    background-position: 35px 0;
+    padding-left: 10px;
+    max-width: 250px;
+    font-style: normal;
+    margin-bottom: 39px;
+  }
+
+  .contacts-link_tel {
+    background-position: 10px 0;
+    padding-left: 40px;
+    margin-bottom: 14px;
+  }
+
+  .contacts-link_mail {
+    background-position: 5px 4px;
+    background-size: 30px;
+    padding-left: 40px;
+    margin-bottom: 35px;
+  }
+
+  .social-map img {
+    width: 688px;
+    height: 337px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
+@media (max-width: 320px) {
+  .contacts-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contacts-text_add {
+    background-position: 23px 0;
+    background-size: 20px;
+    padding-left: 10px;
+    max-width: 150px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contacts-link_tel {
+    background-position: 15px 0;
+    background-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .contacts-link_mail {
+    background-position: 15px 3px;
+    background-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .list-social__item {
+    width: 28px;
+    height: 28px;
+  }
+  .social-map img {
+    width: 280px;
+    height: 194px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 
 

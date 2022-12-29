@@ -61,7 +61,6 @@
 
         <button class="btn-go" onclick="return false;" type="button">Забронировать</button>
 
-
        <a class="link-go-arrow" onclick="return false;" href="#"><svg class="go-arrow" width="97" height="97" viewBox="0 0 97 97" fill="transparent" xmlns="http://www.w3.org/2000/svg">
          <circle cx="48.5" cy="48.5" r="48" stroke="white"/>
          <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 34.4255 43.9162)" fill="white"/>
@@ -69,8 +68,8 @@
        </svg></a>
 
      </div>
-
    </section>
+
    <section class="friends">
      <div class="container">
        <h2 class="friends-title">У нас есть все для классного
@@ -164,29 +163,21 @@
                  <legend class="form-title form-title_two">Приставка</legend>
                  <label for="station"><input class="search-form__input search-form__radio-two" id="station" type="radio" name="сonsole" value="PlayStation 5">PlayStation 5</label>
 
-
                  <label for="sega"><input class="search-form__input search-form__radio-two" id="sega" type="radio" name="сonsole" value="Sega Mega Drive">Sega Mega Drive</label>
 
-
                  <label for="box"><input class="search-form__input search-form__radio-two" id="box" type="radio" name="сonsole" value="X Box One S"> X Box One S</label>
-
 
                  <label for="dendy"><input class="search-form__input search-form__radio-two" id="dendy" type="radio" name="сonsole" value="Dendy">Dendy</label>
 
                </fieldset>
 
-
-
                <fieldset class="block-form block-form_three">
                  <legend class="form-title form-title_three">Настольные игры</legend>
                  <label for="jenga"><input class="search-form__input search-form__checkbox" id="jenga" type="checkbox" name="game" value="jenga">Jenga</label>
 
-
                  <label for="monopoly"><input class="search-form__input search-form__checkbox" id="monopoly" type="checkbox" name="game" value="monopoly">Monopoly</label>
 
-
                  <label for="munchkin"><input class="search-form__input search-form__checkbox" id="munchkin" type="checkbox" name="game" value="munchkin">Манчкин</label>
-
 
                  <label for="alias"><input class="search-form__input search-form__checkbox" id="alias" type="checkbox" name="game" value="alias"> Alias</label>
 
@@ -208,34 +199,35 @@
              <legend class="form-title form-title_five">Выберите дату и время</legend>
              <fieldset class="form-group-one">
 
-               <input class="search-form__input search-form__date" id="date" type="text" name="date" required placeholder="Время">
+               <input class="search-form__input search-form__date" id="date" type="text" name="date" required placeholder="Дата">
 
-
-               <input class="search-form__input search-form__time" id="time" type="text" name="time" required placeholder="Дата">
+               <input class="search-form__input search-form__time" id="time" type="text" name="time" required placeholder="Время">
 
 
                <input class="search-form__input search-form__number" id="person" type="number" name="person" required placeholder="Сколько человек">
 
              </fieldset>
 
-             <fieldset class="form-group-two">
+              <fieldset class="form-input">
 
-               <label for="name">Имя</label>
-               <input class="search-form__input search-form__text-name" id="name" type="text" name="name" required>
+                <fieldset class="form-group-two">
 
-               <label for="lastname">Фамилия</label>
-               <input class="search-form__input search-form__text-lastname" id="lastname" type="text" name="lastname" required>
+                  <label for="name">Имя</label>
+                  <input class="search-form__input search-form__text-name" id="name" type="text" name="name" required>
 
-             </fieldset>
-             <fieldset class="form-group-three">
-               <label for="tel">Телефон</label>
-               <input class="search-form__input search-form__text-tel" id="tel" type="tel" name="tel" required>
+                  <label for="lastname">Фамилия</label>
+                  <input class="search-form__input search-form__text-lastname" id="lastname" type="text" name="lastname" required>
 
-               <label for="mail">E-mail</label>
-               <input class="search-form__input search-form__text" id="mail" type="email" name="email" required>
+                </fieldset>
+                <fieldset class="form-group-three">
+                  <label for="tel">Телефон</label>
+                  <input class="search-form__input search-form__text-tel" id="tel" type="tel" name="tel" required>
 
+                  <label for="mail">E-mail</label>
+                  <input class="search-form__input search-form__text" id="mail" type="email" name="email" required>
 
-             </fieldset>
+                </fieldset>
+              </fieldset>
            </fieldset>
          </fieldset>
 
@@ -251,15 +243,17 @@
      <div class="container">
        <h2 class="title-about" id="about">О нас</h2>
 
+       <div class="image-about">
        <img src="image/photos_about.jpg" alt="Изображение услуг">
-       <div class="block-about">
          <div class="text-about">
            <p class="text-about__first">Для наших гостей мы создали <i>концептуально
              новое игровое пространство виртуальной реальности</i> в центральной части города</p>
            <p class="text-about__last">Каждый день мы стараемся создавать
              для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми разработками со всего мира</p>
          </div>
+         </div>
 
+       <div class="block-about">
          <blockquote class="quote">
            <p class="quote-text">GAME OVER –
              это место незабываемых впечатлений</p>
@@ -305,11 +299,11 @@
      <div class="container">
        <h2 class="question-title">Частые вопросы</h2>
        <ul class="list-question">
-         <li class="question-list-item">Можно ли забронировать комнату онлайн</li>
-         <li class="question-list-item">Могут ли мне вернуть деньги за бронь</li>
-         <li class="question-list-item">Какая комната самая популярная</li>
-         <li class="question-list-item">Как получить VIP карту</li>
-         <li class="question-list-item">Как к вам проехать</li>
+         <li class="question-list-item">Можно ли забронировать комнату онлайн?</li>
+         <li class="question-list-item">Могут ли мне вернуть деньги за бронь?</li>
+         <li class="question-list-item">Какая комната самая популярная?</li>
+         <li class="question-list-item">Как получить VIP карту?</li>
+         <li class="question-list-item">Как к вам проехать?</li>
        </ul>
      </div>
    </section>
@@ -321,7 +315,7 @@
       <h2 class="contacts-title" id="contacts">Контакты</h2>
       <div class="block-social">
         <div class="contacts">
-          <p class="contacts-text contacts-text_add">г. Москва ул.Аквамарина, 16</p>
+          <p class="contacts-text contacts-text_add">г. Москва ул.Усачева, 29к3</p>
           <a class="contacts-link contacts-link_tel" href="tel:89509302893">9(950)930-28-93</a>
           <a class="contacts-link contacts-link_mail" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
 
@@ -366,6 +360,7 @@
 
     </div>
   </section>
+
   <section class="designer">
       <div class="container">
         <div class="content-design">
