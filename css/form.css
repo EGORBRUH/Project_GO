@@ -677,6 +677,11 @@ fieldset {
     line-height: 18px;
   }
 
+  .form-title_five {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
   .label-form_vibes,
   .label-form_neon,
   .label-form_west,
