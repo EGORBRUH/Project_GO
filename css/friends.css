@@ -138,14 +138,47 @@
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
   .friends {
-    min-height: 370px;
+    min-height: 320px;
     padding: 15px 0;
   }
   .friends-title {
     font-size: 14px;
     line-height: 18px;
+    margin-bottom: 15px;
+  }
+  .friends-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 75px 75px;
+    gap: 10px;
+
+  }
+  .friends-card img {
+    width: 135px;
+    position: relative;
+    transition: 0.5s;
+  }
+  .friends-card_title {
+    bottom: 20px;
+    left: 10px;
+    font-size: 10px;
+    line-height: 14px;
+    z-index: 1;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .friends {
+    min-height: 320px;
+    padding: 15px 0;
+  }
+  .friends-title {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
   }
   .friends-row {
     display: grid;

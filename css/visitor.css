@@ -94,7 +94,7 @@
   }
 
   .visitor-text {
-    transform: translateY(-20px);
+    transform: translateY(-50px);
     max-width: 515px;
     font-weight: 400;
     font-size: 18px;
@@ -121,22 +121,25 @@
     font-size: 24px;
     line-height: 36px;
   }
+
   .visitor-img {
     width: 153px;
     height: 153px;
-
   }
+
   .visitor-item figure:before {
     width: 153px;
     height: 153px;
   }
+
   .visitor-list  {
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
   }
+
   .visitor-text {
     transform: translateY(-30px);
     max-width: 393px;
@@ -144,10 +147,69 @@
     font-size: 16px;
     line-height: 22px;
   }
+
   .visitor-item figcaption {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .visitor-reviews {
+    padding: 15px 0;
+  }
+
+  .visitors-title {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+
+  .visitor-img {
+    width: 86px;
+    height: 86px;
+  }
+
+  .visitor-item figure:before {
+    width: 86px;
+    height: 86px;
+  }
+  .visitor-item figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .visitor-list  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .visitor-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+  }
+
+  .visitor-text {
+    transform: translateY(-30px);
+    max-width: 280px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .visitor-item figcaption {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
   }
 }
 
@@ -166,14 +228,18 @@
   .visitor-img {
     width: 86px;
     height: 86px;
-
   }
 
   .visitor-item figure:before {
     width: 86px;
     height: 86px;
   }
-
+  .visitor-item figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   .visitor-list  {
     display: flex;
     flex-direction: column;
@@ -183,18 +249,25 @@
     flex-wrap: wrap;
   }
 
-  .visitor-item figcaption {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-
+  .visitor-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
   }
 
   .visitor-text {
-    transform: translateY(0px);
+    transform: translateY(-30px);
     max-width: 280px;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+  }
+
+  .visitor-item figcaption {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
   }
 }

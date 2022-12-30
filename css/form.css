@@ -628,20 +628,174 @@ fieldset {
 
 }
 
-
-
-@media  (max-width: 320px) {
+@media  (max-width: 390px) {
   .form {
-
+    padding: 15px 0;
   }
   .title {
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 13px;
   }
 
   .legend-form_hall {
     font-size: 14px;
     line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .title-form_group {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .form-title_two {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .block-form_two label,
+  .block-form_three label,
+  .block-form_four label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .form-console {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .form-title_three {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .form-title_four {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .form-title_five {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .label-form_vibes,
+  .label-form_neon,
+  .label-form_west,
+  .label-form_wars {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 6px 20px;
+    border-radius: 4px;
+    margin-bottom: 0;
+  }
+
+  .label-form_vibes,
+  .label-form_wars {
+    padding: 6px 23px;
+  }
+
+  .block-form_one {
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .block-form_group {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 67px;
+  }
+
+  .block-form_five {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .search-form__number {
+    width: 305px;
+    height: 52px;
+  }
+
+  .search-form__text {
+    width: 305px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-tel {
+    width: 305px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-name {
+    width: 305px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-lastname {
+    width: 305px;
+    height: 52px;
+  }
+
+  .search-form__button-submit  {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 17px 70px;
+    box-shadow: 0 0 18px 0 #ffffff;
+  }
+
+  .form-group-one {
+    max-width: 800px;
+    flex-basis: 95px;
+    flex-direction: row;
+    display: flex;
+    gap: 10px 20px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-self: start;
+  }
+
+  .search-form__time {
+    margin-right: 0;
+  }
+}
+
+
+@media  (max-width: 320px) {
+  .form {
+    padding: 15px 0;
+  }
+  .title {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 13px;
+  }
+
+  .legend-form_hall {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
   }
 
   .title-form_group {

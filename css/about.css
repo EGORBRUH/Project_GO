@@ -190,16 +190,89 @@
   }
 }
 
-
-
-@media  (max-width: 320px) {
+@media  (max-width: 390px) {
   .about {
-    padding: 30px 0;
+    padding: 15px 0;
   }
 
   .title-about {
     font-size: 14px;
     line-height: 18px;
+    margin-bottom: 15px;
+  }
+  .about img {
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    margin-right: 0;
+    order: 2;
+  }
+  .image-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 41px;
+  }
+
+  .text-about__first {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+
+  .text-about__last {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+  .quote-text {
+    position: relative;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 22px;
+  }
+
+  .quote-text:before {
+    left: -15px;
+    font-size: 40px;
+  }
+
+  .quote-text:after {
+    font-size: 40px;
+
+  }
+  .quote-author {
+    display: flex;
+    position: relative;
+    left: 30%;
+    max-width: 160px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .quote-author:before {
+    content: "";
+    background-image: url("../image/person.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+    left: -80px;
+    top: -5px;
+  }
+}
+
+
+@media  (max-width: 320px) {
+  .about {
+    padding: 15px 0;
+  }
+
+  .title-about {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
   }
   .about img {
     width: 280px;
