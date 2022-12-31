@@ -81,7 +81,7 @@
   }
 
   .friends-card img {
-    width: 282px;
+    width: 287px;
     position: relative;
     transition: 0.5s;
   }
@@ -90,7 +90,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px 22px;
+    gap: 30px 15px;
   }
 
   .friends-card_title {
@@ -117,7 +117,7 @@
   .friends-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 75px 75px 75px;
+    grid-template-rows: 200px 200px 200px;
     gap: 10px;
 
   }

@@ -61,7 +61,8 @@
 
   .list-hall{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px 15px;
   }
@@ -93,7 +94,8 @@
 
   .list-hall{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
   }
@@ -117,6 +119,13 @@
 @media (max-width: 390px) {
   .hall {
     padding: 15px 0;
+  }
+
+  .list-hall{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
   .title-hall {

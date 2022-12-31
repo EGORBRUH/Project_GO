@@ -96,35 +96,54 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 37px;
+    margin-bottom: 26px;
   }
 
   .text-about__last {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 37px;
+    margin-bottom: 26px;
   }
+
+  .quote-author {
+    display: inline-block;
+    padding-left: 191px;
+    max-width: 430px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .quote-author:before {
+    content: url("../image/person.svg");
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    right: 280px;
+    bottom: 10px;
+  }
+
   .quote-text {
     position: relative;
+    left: 20px;
     font-weight: 400;
     white-space: normal;
     font-size: 30px;
     line-height: 36px;
-    margin-bottom: 13px;
+    margin-bottom: 49px;
   }
+
   .quote-text:before {
     content: "“";
     position: absolute;
-    left: -15px;
-    font-size: 60px;
     color: var(--go-colorone, #6C0287);
   }
 
   .quote-text:after {
     content: "”";
     position: absolute;
-    font-size: 60px;
     color: var(--go-colorone, #6C0287);
   }
 }
@@ -201,7 +220,7 @@
     margin-bottom: 15px;
   }
   .about img {
-    width: 280px;
+    width: 330px;
     height: 280px;
     text-align: center;
     margin-right: 0;

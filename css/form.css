@@ -483,6 +483,7 @@ fieldset {
 
   .block-form_group {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 67px;
   }
@@ -513,12 +514,15 @@ fieldset {
   }
 
   .form-title_five {
+    display: flex;
+    flex-wrap: wrap;
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
     text-align: center;
     margin-bottom: 26px;
   }
+
   .form-input {
     display: flex;
     gap: 60px;
@@ -728,30 +732,31 @@ fieldset {
   }
 
   .search-form__number {
-    width: 305px;
+
+    width: 300px;
     height: 52px;
   }
 
   .search-form__text {
-    width: 305px;
+    width: 300px;
     height: 52px;
     margin-bottom: 14px;
   }
 
   .search-form__text-tel {
-    width: 305px;
+    width: 300px;
     height: 52px;
     margin-bottom: 14px;
   }
 
   .search-form__text-name {
-    width: 305px;
+    width: 300px;
     height: 52px;
     margin-bottom: 14px;
   }
 
   .search-form__text-lastname {
-    width: 305px;
+    width: 300px;
     height: 52px;
   }
 
@@ -766,19 +771,20 @@ fieldset {
   }
 
   .form-group-one {
-    max-width: 800px;
-    flex-basis: 95px;
+
+    flex-basis: 110px;
     flex-direction: row;
     display: flex;
     gap: 10px 20px;
     margin-bottom: 30px;
-    justify-content: space-between;
-    align-self: start;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .search-form__time {
     margin-right: 0;
   }
+
 }
 
 
@@ -896,6 +902,17 @@ fieldset {
     width: 280px;
     height: 52px;
     margin-bottom: 14px;
+  }
+
+  .search-form__text-name {
+    width: 280px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text-lastname {
+    width: 280px;
+    height: 52px;
   }
 
   .search-form__button-submit  {
