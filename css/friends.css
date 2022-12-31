@@ -150,7 +150,7 @@
   }
   .friends-row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(100px, 135px) minmax(100px, 135px);
     grid-template-rows: 75px 75px 75px;
     gap: 10px;
 

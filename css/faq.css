@@ -112,7 +112,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    width: 305px;
+    max-width: 330px;
     height: 46px;
     line-height: 16px;
     padding: 7px 43px 7px 10px;
