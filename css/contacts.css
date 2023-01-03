@@ -35,7 +35,7 @@
 
 .contacts-link_tel:hover {
   color: var(--gocolor, rgba(205, 6, 255, 1));
-  text-shadow: -2px -2px 3px #FFFFFF;
+  text-shadow: 0px 0px 3px #FFFFFF;
   transition-property: all;
   transition-duration: .4s;
   transition-timing-function: ease-out;
@@ -43,7 +43,7 @@
 
 .contacts-link_mail:hover {
   color: var(--gocolor, rgba(205, 6, 255, 1));
-  text-shadow: -2px -2px 3px #FFFFFF;
+  text-shadow: 0px 0px 3px #FFFFFF;
   transition-property: all;
   transition-duration: .4s;
   transition-timing-function: ease-out;

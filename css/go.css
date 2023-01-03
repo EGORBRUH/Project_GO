@@ -4,6 +4,7 @@
 }
 
 .title-go {
+  max-width: 100%;
   font-family: "Arial Black", sans-serif;
   font-weight: 900;
   position: relative;
@@ -20,7 +21,7 @@
   height: 762px;
   position: absolute;
   top: 80px;
-  right: 0px;
+  right: 0;
 }
 
 
@@ -86,7 +87,7 @@
   font-size: 26px;
   line-height: 30px;
   border: none;
-  box-shadow: 2px 2px 30px 2px var(--go-colorone);
+  box-shadow: 0px 0px 10px 2px var(--go-colorone);
   text-transform: uppercase;
   background: var(--go-colorone, #6C0287);
   border-radius: 10px;
@@ -98,11 +99,9 @@
 
 .btn-go:hover {
   background: #840AA3;
-  border: 1px solid var(--go-colorone, #6C0287);
   border-radius: 10px;
-  box-shadow: 2px 2px 30px 5px var(--go-colorone);
-  transition-property: background, border, box-shadow;
-  transition-duration: 1s;
+  box-shadow: 0px 0px 10px 5px var(--go-colorone);
+  transition-duration: .2s;
   transition-timing-function: ease-out;
 }
 /*hover*/
@@ -110,12 +109,11 @@
 /*active*/
 
 .btn-go:active {
-  background:  #640AA3;
-  border: 1px solid #000000;
+  background:  var(--go-colorone);
   border-radius: 10px;
-  box-shadow: 2px 2px 30px 1px var(--go-colorone);
+  box-shadow: 0px 0px 10px 1px var(--go-colorone);
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .2s;
   transition-timing-function: ease-out;
 }
 
@@ -147,7 +145,7 @@
   border: .5px solid var(--gocolor, rgba(205, 6, 255, 1));
   outline: none;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .1s;
   transition-timing-function: ease-out;
 }
 
@@ -162,21 +160,21 @@
   background: url("../image/arrow-main-hover.svg");
   fill: white;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .5s;
   transition-timing-function: ease-out;
 }
 
 .go-arrow:hover rect {
   fill: var(--go-colorone, #6C0287);
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .5s;
   transition-timing-function: ease-out;
 }
 
 .go-arrow:active {
   background: url("../image/arrow-main-active.svg");
   transition-property: all;
-  transition-duration: 0.1s;
+  transition-duration: .1s;
   transition-timing-function: ease-out;
 
 }

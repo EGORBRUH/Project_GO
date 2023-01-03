@@ -156,10 +156,9 @@
     line-height: 36px;
   }
   .about img {
-    width: 328px;
-    height: 380px;
+    width: 100%;
     float: left;
-    margin-right: 40px;
+    margin-right: 28px;
   }
   .text-about__first {
     font-size: 16px;
@@ -174,6 +173,7 @@
   }
   .image-about {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 41px;

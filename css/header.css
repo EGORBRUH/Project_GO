@@ -13,8 +13,9 @@
 }
 
 .header-list {
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
@@ -29,9 +30,9 @@
 
 .header-item:hover {
   color: var(--gocolor, rgba(205, 6, 255, 1));
-  text-shadow: 2px 2px 3px #ffffff;
+  text-shadow: 0 0 3px #ffffff;
   transition-property: color;
-  transition-duration: 1s;
+  transition-duration: .2s;
   transition-timing-function: ease-out;
 }
 .header-item:last-child {
@@ -60,7 +61,7 @@
   border: 3px solid var(--go-colorone, #6C0287);
   border-radius: 10px;
   transition-property: background, color;
-  transition-duration: 1s;
+  transition-duration: .2s;
   transition-timing-function: ease-out;
 }
 
@@ -69,7 +70,7 @@
   border: 3px solid #000000;
   border-radius: 10px;
   transition-property: background, color;
-  transition-duration: 1s;
+  transition-duration: .2s;
   transition-timing-function: ease-out;
 }
 /*active*/
@@ -78,7 +79,7 @@
   background: var(--go-colorone, #6C0287);
   border-radius: 10px;
   transition-property: background, color;
-  transition-duration: 1s;
+  transition-duration: .2s;
   transition-timing-function: ease-in-out;
 }
 /*focus*/

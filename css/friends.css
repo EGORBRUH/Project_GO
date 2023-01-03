@@ -19,23 +19,35 @@
   transition: 0.5s;
 }
 .friends-card img {
-  width: 380px;
+  max-width: 100%;
   height: 228px;
 }
 .friends-card-one:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 
 .friends-card-three:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 
 .friends-card-four:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 
 .friends-card-six:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 
 .friends-card-two {
@@ -43,7 +55,10 @@
 }
 
 .friends-card-two:hover {
-  transform: scale(1.1) translateY(80px);
+  transform: scale(1.2) translateY(80px);
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 
 .friends-card-five {
@@ -51,7 +66,10 @@
 }
 
 .friends-card-five:hover {
-  transform: scale(1.1) translateY(80px);
+  transform: scale(1.2) translateY(80px);
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
 }
 
 .friends-card_title {
@@ -81,9 +99,20 @@
   }
 
   .friends-card img {
-    width: 287px;
+    max-width: 287px;
     position: relative;
     transition: 0.5s;
+  }
+
+  @media (max-width: 1023px ) {
+    .friends-card-two {
+      transform: translateY(0px);
+    }
+
+    .friends-card-five {
+      transform: translateY(0px);
+    }
+
   }
 
   .friends-row {
@@ -109,7 +138,7 @@
   }
 
   .friends-card img {
-    width: 334px;
+    max-width: 100%;
     position: relative;
     transition: 0.5s;
   }
@@ -156,7 +185,7 @@
 
   }
   .friends-card img {
-    width: 135px;
+    max-width: 135px;
     position: relative;
     transition: 0.5s;
   }
@@ -188,7 +217,7 @@
 
   }
   .friends-card img {
-    width: 135px;
+    max-width: 135px;
     position: relative;
     transition: 0.5s;
   }
