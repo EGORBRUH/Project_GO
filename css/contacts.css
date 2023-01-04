@@ -85,6 +85,18 @@
   margin-bottom: 35px;
 }
 
+.list-social__item svg:hover {
+  fill:  #EADEED;
+}
+
+.list-social__item a:focus {
+  fill:  #EADEED;
+  outline: 1px solid #CD06FF
+}
+
+.list-social__item svg:active {
+  fill:  #CD06FF;
+}
 
 
 @media (max-width: 1024px) {

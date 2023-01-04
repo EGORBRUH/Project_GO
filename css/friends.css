@@ -106,11 +106,21 @@
 
   @media (max-width: 1023px ) {
     .friends-card-two {
-      transform: translateY(0px);
+      transform: translateY(0);
     }
 
     .friends-card-five {
-      transform: translateY(0px);
+      transform: translateY(0);
+    }
+
+    .friends-card-two:hover {
+      transform: scale(1.2) translateY(0px);
+
+    }
+
+    .friends-card-five:hover {
+      transform: scale(1.2) translateY(0px);
+
     }
 
   }
