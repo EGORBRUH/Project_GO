@@ -1,9 +1,7 @@
 .header {
   position: relative;
 }
-.header-logo {
 
-}
 .header-content_menu {
   display: flex;
   justify-content: space-between;
@@ -170,6 +168,25 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-logo {
+    width: 50px;
+  }
+  .header-btn {
+    display: flex;
+    justify-content: end;
+    border: 3px solid var(--main-color, #640AA3);
+    border-radius: 10px;
+    color: #ffffff;
+    background: transparent;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 20px;
   }
 }
 
