@@ -297,7 +297,7 @@
     width: 409px;
     height: 479px;
     top: 40px;
-    right: 0px;
+    right: 40px;
   }
 
   .text-go-title {
@@ -352,7 +352,7 @@
 @media (max-width: 600px) {
   .go {
     padding: 30px 0;
-    min-height: 340px;
+    min-height: 290px;
   }
 
   .text-go_big {
@@ -385,6 +385,7 @@
   }
 
   .btn-go {
+    display: none;
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 4px;
@@ -397,6 +398,8 @@
   }
 
   .text-go-title {
+    font-size: 14px;
+    padding-left: 35px;
     margin-bottom: 10px;
   }
 }
@@ -454,6 +457,7 @@
   }
 
   .btn-go {
+    display: flow-root;
     padding: 8px 13px;
     font-size: 10px;
     line-height: 12px;
