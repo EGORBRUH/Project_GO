@@ -97,7 +97,7 @@
 
 .person-go {
   position: relative;
-  left: 50%;
+  left: 40%;
   top: 7px;
   display: inline-block;
   margin-right: 25px;
@@ -105,12 +105,12 @@
 
 .person {
   position: relative;
-  left: 60px;
+  left: 50px;
 }
 
 .quote-author {
   position: relative;
-  left: 50px;
+  left: 40px;
   align-content: end;
   max-width: 450px;
   text-align: left;
@@ -122,7 +122,7 @@
 
 .quote-author-go {
   position: relative;
-  left: 50%;
+  left: 40%;
   display: inline-block;
   max-width: 225px;
   text-align: left;
@@ -140,9 +140,9 @@
     line-height: 40px;
   }
 
-  .about img {
+  .img-about {
     max-width: 420px;
-
+    margin-right: 40px;
   }
 
 
@@ -224,6 +224,12 @@
   }
 
   .img-about {
+    display: flex;
+    width: 382px;
+    height: auto;
+  }
+
+  .block-about {
     margin-right: 28px;
   }
 
@@ -234,7 +240,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-
   }
 
   .title-about {
@@ -245,8 +250,6 @@
   .text-about__first {
     font-size: 16px;
     line-height: 22px;
-
-
   }
 
   .text-about__last {
@@ -281,6 +284,22 @@
     line-height: 26px;
   }
 
+@media  (max-width: 600px) {
+  .block-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .img-about {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  .person-go img {
+    margin-right: 0;
+  }
+}
 
 
 @media  (max-width: 390px) {
@@ -331,14 +350,9 @@
     margin-right: 0;
     order: 2;
   }
-  .image-about {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 41px;
+  .block-about {
+    margin-bottom: 0;
   }
-
   .text-about__first {
     font-size: 12px;
     line-height: 16px;
