@@ -155,6 +155,17 @@
   }
 }
 
+@media (max-width: 600px) {
+  .visitor-item  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 390px) {
   .visitor-reviews {
     padding: 15px 0;

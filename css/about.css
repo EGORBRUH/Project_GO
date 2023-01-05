@@ -7,7 +7,6 @@
 
 .block-about {
   display: flex;
-  margin-bottom: 41px;
 }
 
 .text-about {
@@ -287,18 +286,40 @@
 @media  (max-width: 600px) {
   .block-about {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
-
+  .text-about__last {
+    margin-bottom: 20px;
+  }
   .img-about {
     margin-right: 0;
     margin-bottom: 40px;
   }
-  .person-go img {
+  .person-go  {
     margin-right: 0;
   }
+  .quote-go {
+    margin: 0;
+  }
+  .quote-author-go {
+    position: relative;
+    left: 5%;
+    display: inline-block;
+    max-width: 225px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .person-go {
+    position: relative;
+    left: 5%;
+  }
+
 }
 
 
