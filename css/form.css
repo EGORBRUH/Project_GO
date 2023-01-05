@@ -60,7 +60,7 @@ fieldset {
   position: relative;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 0.5s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -68,7 +68,7 @@ fieldset {
   background: var(--gocolor, rgba(205, 6, 255, 1));
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -76,7 +76,7 @@ fieldset {
   background: #FFFFFF;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 /*hover*/
@@ -87,7 +87,7 @@ fieldset {
   position: relative;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 0.5s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -95,7 +95,7 @@ fieldset {
   background: var(--gocolor, rgba(205, 6, 255, 1));
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -103,7 +103,7 @@ fieldset {
   background: #FFFFFF;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 /*active*/
@@ -115,7 +115,7 @@ fieldset {
   position: relative;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 0.5s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -123,7 +123,7 @@ fieldset {
   background: var(--main-color, #640AA3) ;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -131,7 +131,7 @@ fieldset {
   background: #FFFFFF;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
@@ -142,21 +142,21 @@ fieldset {
   position: relative;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 0.5s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 .label-form_neon:active{
   background: var(--main-color, #640AA3);
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 .label-form_neon:focus{
   background: #FFFFFF;
   border-radius: 8px;
   transition-property: all;
-  transition-duration: 1s;
+  transition-duration: .3s;
   transition-timing-function: ease-out;
 }
 
