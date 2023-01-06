@@ -11,6 +11,10 @@
   position: relative;
 }
 
+.list-question {
+  position: relative;
+}
+
 .question-list-item {
   background-color: #fff;
   color: #1C1A1A;
@@ -114,6 +118,22 @@
     right: 10px;
     bottom: 30px;
   }
+  .question-list-item:first-child:after {
+    position: absolute;
+    right: 10px;
+    bottom: 45px;
+  }
+  .question-list-item:nth-child(2):after {
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+  }
+  .question-list-item:nth-child(3):after {
+    position: absolute;
+    right: 10px;
+    bottom: 35px;
+  }
+
 }
 
 

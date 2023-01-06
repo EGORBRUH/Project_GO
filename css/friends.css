@@ -170,14 +170,19 @@
   }
 
   .friends-card_title {
-    bottom: 40px;
-    left: 30px;
+    bottom: 30px;
+    left: 20px;
     z-index: 1;
   }
 
 }
 
-
+@media (max-width: 600px) {
+  .friends-card_title {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
 
 @media (max-width: 390px) {
   .friends {

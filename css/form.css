@@ -654,12 +654,61 @@ fieldset {
     width: 300px;
     height: 52px;
   }
+}
 
+@media  (max-width: 600px) {
+  .search-form__number {
+    display: flex;
+    flex-basis: 280px;
+    margin-left: 0;
+    height: 52px;
+  }
+  .form-title_five {
+    display: flex;
+    justify-content: start;
+  }
+  .block-form_five {
+    position: relative;
+    left: 25%
+  }
+
+  .search-form__button-submit  {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 16px 40px;
+    box-shadow: 0 0 18px 0 #ffffff;
+  }
+
+  .search-form__text-tel {
+    max-width: 280px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+  .search-form__text {
+    min-width: 280px;
+    height: 52px;
+    margin-bottom: 14px;
+  }
+
+}
+
+
+@media  (max-width: 414px) {
+  .block-form_five {
+    position: relative;
+    left: 15%
+  }
 }
 
 @media  (max-width: 390px) {
   .form {
     padding: 15px 0;
+
   }
   .title {
     font-size: 14px;
